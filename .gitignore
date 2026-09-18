@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Checkpoints / weights (distributed as release assets, never committed)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Run outputs
+*.log
+outputs/
+results/
+wandb/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.pdf
+
+# OS
+.DS_Store

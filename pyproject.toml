@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "novakv"
+version = "0.1.0"
+description = "Inference and evaluation for NovaKV low-rank compressed KV-cache checkpoints."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Charles De Clercq" }]
+
+[tool.setuptools.packages.find]
+include = ["novakv*"]
